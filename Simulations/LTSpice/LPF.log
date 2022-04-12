@@ -1,0 +1,149 @@
+Circuit: * C:\Users\Dino\Desktop\ECG-EMG Active Capacitive Electrodes\Simulations\LTSpice\LPF.asc
+
+WARNING: Less than two connections to node 2.5V.  This node is used by V1.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Increasing initial diagonal Gmin to 10000
+Gmin = 10000
+Gmin = 1073.74
+Gmin = 115.292
+Gmin = 12.3794
+Gmin = 1.32923
+Gmin = 0.142725
+Gmin = 0.015325
+Gmin = 0.0016455
+Gmin = 0.000176685
+Gmin = 1.89714e-005
+Gmin = 2.03704e-006
+Gmin = 2.18725e-007
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.7498e-007
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Could not converge to DC with sources off!
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 3.0451%
+Source Step = 3.07469%
+Source Step = 3.10429%
+Source Step = 3.13388%
+Source Step = 3.16347%
+Source Step = 3.19306%
+vernier = 0.00146484
+Source Step = 3.23301%
+Source Step = 3.2774%
+Source Step = 3.32179%
+Source Step = 3.36618%
+Source Step = 3.41057%
+vernier = 0.00219727
+Source Step = 3.46828%
+Source Step = 3.53486%
+Source Step = 3.60144%
+Source Step = 3.66803%
+Source Step = 3.73461%
+vernier = 0.0032959
+Source Step = 3.81784%
+Source Step = 3.91772%
+Source Step = 4.01759%
+Source Step = 4.11747%
+Source Step = 4.21734%
+vernier = 0.00494385
+Source Step = 4.3372%
+Source Step = 4.48701%
+Source Step = 4.63682%
+Source Step = 4.78664%
+Source Step = 4.93645%
+vernier = 0.00741577
+Source Step = 5.10874%
+Source Step = 5.33346%
+Source Step = 5.55818%
+Source Step = 5.7829%
+Source Step = 6.00762%
+vernier = 0.0111237
+Source Step = 6.25481%
+Source Step = 6.59189%
+Source Step = 6.92897%
+Source Step = 7.26605%
+Source Step = 7.60313%
+vernier = 0.0166855
+Source Step = 7.95707%
+Source Step = 8.46269%
+Source Step = 8.96831%
+Source Step = 9.47393%
+Source Step = 9.97955%
+Source Step = 10.4852%
+vernier = 0.0250282
+Source Step = 11.2436%
+Source Step = 12.002%
+Source Step = 12.7605%
+Source Step = 13.5189%
+Source Step = 14.2773%
+vernier = 0.0375423
+Source Step = 15.3771%
+Source Step = 16.5147%
+Source Step = 17.6523%
+Source Step = 18.79%
+Source Step = 19.9276%
+vernier = 0.0563135
+Source Step = 21.5203%
+Source Step = 23.2268%
+Source Step = 24.9333%
+Source Step = 26.6398%
+Source Step = 28.3462%
+vernier = 0.0844703
+Source Step = 30.65%
+Source Step = 33.2097%
+Source Step = 35.7694%
+Source Step = 38.3291%
+Source Step = 40.8888%
+vernier = 0.126705
+Source Step = 44.2164%
+Source Step = 48.056%
+Source Step = 51.8955%
+Source Step = 55.7351%
+Source Step = 59.5746%
+vernier = 0.190058
+Source Step = 64.3741%
+Source Step = 70.1334%
+Source Step = 75.8927%
+Source Step = 81.6521%
+Source Step = 87.4114%
+vernier = 0.285087
+Source Step = 94.3226%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Mon Apr 11 23:20:19 2022
+Total elapsed time: 0.581 seconds.
+
+tnom = 27
+temp = 27
+method = Gear
+totiter = 9573
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 135
+fillins = 251
+solver = Normal
+Matrix Compiler1:     919 opcodes  3.1/[1.5]/1.6
+Matrix Compiler2: 16.73 KB object code size  2.2/2.9/[0.8]
+

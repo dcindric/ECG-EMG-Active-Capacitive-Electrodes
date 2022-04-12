@@ -1,0 +1,29 @@
+* C:\Users\Dino\Desktop\ECG-EMG Active Capacitive Electrodes\Simulations\LTSpice\LPF.asc
+R1 N001 Vin 42.2k
+R2 N004 N001 267k
+C1 N004 Vofs 10n
+C2 N002 N001 10n
+R3 N002 N006 9k
+R4 Vofs N006 1k
+R5 N003 N002 22.6k
+R6 N005 N003 499k
+C3 N005 Vofs 10n
+C4 LPF_Out N003 10n
+R7 LPF_Out N007 9k
+R8 Vofs N007 1k
+V1 2.5V 0 2.5
+V2 Vin 0 SINE(2.5 0.01 100 0) AC 1
+V3 5V 0 5
+R9 LPF_Out 0 10k
+XU3 N008 Vofs 5V 0 Vofs LT1112
+R10 5V N008 100k
+R11 N008 0 100k
+XU1 N004 N006 5V 0 N002 ADA4096
+XU2 N005 N007 5V 0 LPF_Out ADA4096
+* HPF, 150 Hz f_upper
+.ac dec 100 0.01 10k
+;tran 0 1 0.01 0.1
+.lib ADA4096.lib
+.lib LTC.lib
+.backanno
+.end
